@@ -1,0 +1,12 @@
+<entity-mappings>
+    <entity class="com.bfs.test.employeeserv.api.model.Employee" name="Employee">
+        <table name="Employee" />
+        <schema name="bookstore" />
+        <attributes>
+            <id name="id">
+                <generated-value strategy="AUTO"/>
+                <column name="id"/>
+            </id>
+        </attributes>
+    </entity>
+</entity-mappings>
